@@ -17,6 +17,8 @@ import arvoreHeader from './assets/arvore-header.svg'
     p.mt-5.accent-text Livro Amarelo é a cartilha do posicionamento que o Movimento Brasil Livre defenderá oficialmente, perante a sociedade brasileira, sobre os mais significativos problemas nacionais. Ele é o norte ideológico, o garantidor da fidelidade de nossas promessas, o horizonte intelectual de longo prazo de nossa ação política. O Livro Amarelo contém o planejamento do que deve ser concretizado em cada esfera, seja municipal, estadual ou federal.
     p.mt-5.accent-text Ordinariamente, os programas de governo são feitos por alguns intelectuais, publicitários e gestores. No melhor dos casos. Nosso programa de governo, contudo, não será assim. Ele reunirá a inteligência dispersa de centenas dos mais qualificados apoiadores do MBL. A cada edição, irá incorporar novas perspectivas e a nossa experiência executiva; será renovado em permanente confronto com as melhores experiências em gestão do mundo - e de todas as matrizes ideológicas. Do milagre alemão à ascensão da China, da governança dos países do Sul Global às experiências liberais, nacionalistas, de esquerda e de direita, tudo será examinado com olhar equânime.
     p.mt-5.accent-text Essa grande ambição começa por você, acreditando em nossa missão e na seriedade do projeto, inscrever-se como um possível autor do Livro.
+  .container.py-5.justify-center.flex
+    img(src="/src/assets/mbl-gold.svg" class="w-1/4")
 </template>
 
 <style>
@@ -52,7 +54,7 @@ import arvoreHeader from './assets/arvore-header.svg'
 .holder-arvore {
   margin-top: 50px;
   border-radius:100% 100% 100% 100%;
-  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
 }
 .accent-text {
   color: #E5AE41
