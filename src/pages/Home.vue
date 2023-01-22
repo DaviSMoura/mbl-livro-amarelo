@@ -43,6 +43,14 @@
   border-radius:0 0 50% 50%/0 0 100% 100%;
   transform:scaleX(1.5);
 }
+@media only screen 
+and (max-device-width: 1000px)
+{
+  .holder:before{
+    top: -15%;
+    border-radius:0 0 50% 50%/0 0 30% 30%;
+  }
+}
 .heading {
   color: #29373A;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
