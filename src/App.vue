@@ -18,7 +18,9 @@ import arvoreHeader from './assets/arvore-header.svg'
     p.mt-5.accent-text Ordinariamente, os programas de governo são feitos por alguns intelectuais, publicitários e gestores. No melhor dos casos. Nosso programa de governo, contudo, não será assim. Ele reunirá a inteligência dispersa de centenas dos mais qualificados apoiadores do MBL. A cada edição, irá incorporar novas perspectivas e a nossa experiência executiva; será renovado em permanente confronto com as melhores experiências em gestão do mundo - e de todas as matrizes ideológicas. Do milagre alemão à ascensão da China, da governança dos países do Sul Global às experiências liberais, nacionalistas, de esquerda e de direita, tudo será examinado com olhar equânime.
     p.mt-5.accent-text Essa grande ambição começa por você, acreditando em nossa missão e na seriedade do projeto, inscrever-se como um possível autor do Livro.
   .container.py-5.justify-center.flex
-    img(src="/src/assets/mbl-gold.svg" class="w-1/4")
+    img(src="/src/assets/btn-cadastro.svg" class="md_w-1/3 w-2/3")
+  .container.py-20.mt-20.justify-center.flex
+    img(src="/src/assets/mbl-gold.svg" class="md_w-1/12 w-1/4")
 </template>
 
 <style>

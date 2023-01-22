@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 599.06 97.08">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #e5ae41;
+      }
+
+      .cls-3 {
+        fill: #bf8e37;
+      }
+
+      .cls-4 {
+        fill: #131616;
+      }
+
+      .cls-5 {
+        fill: #1d2526;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-8 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-9 {
+        fill: #29373a;
+        font-family: AmsiProCond-Black, AmsiProCond-Black;
+        font-size: 50.02px;
+        font-weight: 800;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="2"/>
+      <feGaussianBlur result="blur" stdDeviation="4"/>
+      <feFlood flood-color="#000" flood-opacity=".7"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Site_Celular" data-name="Site Celular">
+    <g id="bOTÃO" class="cls-7">
+      <rect class="cls-3" x="1.15" y="7.73" width="597.91" height="89.34" rx="18.67" ry="18.67"/>
+      <rect class="cls-2" x="1.15" y="0" width="597.91" height="89.34" rx="18.67" ry="18.67"/>
+      <path class="cls-4" d="M85.05,7.73H18.04C8.08,7.73,0,15.81,0,25.77v53.26c0,9.96,8.08,18.04,18.04,18.04H85.05V7.73Z"/>
+      <path class="cls-5" d="M98.84,36.71l-13.79-7.96V0H18.04C8.08,0,0,8.08,0,18.04v53.26C0,81.27,8.08,89.34,18.04,89.34H85.05v-28.75l13.79-7.96,13.79-7.96-13.79-7.96Z"/>
+      <text class="cls-9" transform="translate(192.96 63.69)"><tspan x="0" y="0">CA</tspan><tspan class="cls-6" x="46.82" y="0">D</tspan><tspan class="cls-1" x="71.68" y="0">A</tspan><tspan class="cls-8" x="97.09" y="0">S</tspan><tspan x="117.55" y="0">TRE </tspan><tspan class="cls-6" x="192.33" y="0">A</tspan><tspan x="217.1" y="0">QUI</tspan></text>
+    </g>
+  </g>
+</svg>
