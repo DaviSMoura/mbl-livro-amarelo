@@ -15,7 +15,7 @@
     p.mt-5.accent-text Essa grande ambição começa por você, acreditando em nossa missão e na seriedade do projeto, inscrever-se como um possível autor do Livro.
   .container.py-5.justify-center.flex
     router-link(class="md_w-1/3 w-2/3" to="/cadastro")
-      img(src="/src/assets/btn-cadastro.svg")
+      img(src="/src/assets/btn-cadastro.png")
   .container.py-20.mt-20.justify-center.flex
     img(src="/src/assets/mbl-gold.svg" class="md_w-1/12 w-1/4")
 </template>
