@@ -28,10 +28,15 @@ const submit = async () => {
     formData.append(key, form.value[key])
   })
 
-  const response = await fetch(webhookUrl, {
-    method: 'POST',
-    body: formData
-  })
+  let response
+  try {
+    response = await fetch(webhookUrl, {
+      method: 'POST',
+      body: formData
+    })
+  } catch (ex) {
+    response = { ok: false }
+  }
 
   if (response.ok) {
     showSuccess.value = true
