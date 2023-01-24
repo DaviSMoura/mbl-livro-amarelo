@@ -62,7 +62,7 @@
     input.input.input-bordered.input-sm.w-full.md_input-md(type="text" placeholder="Ex. Economia")
   .py-3
     h3.text-xl.accent-text.text-shadow CURRICULO VITAE/LATTES (PDF)
-    input.input.input-bordered.input-sm.w-full.md_input-md(type="text")
+    input.file-input.file-input-bordered.file-input-sm.w-full.md_file-input-md(type="file")
   .py-3
     h3.text-xl.accent-text.text-shadow EM QUE ÁREA VOCÊ PRETENDE CONTRIBUIR COM O LIVRO AMARELO?
     input.input.input-bordered.input-sm.w-full.md_input-md(type="text" placeholder="Ex. Economia")
