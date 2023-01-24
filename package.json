@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@devindex/vue-mask": "^2.0.3",
     "daisyui": "^2.47.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"

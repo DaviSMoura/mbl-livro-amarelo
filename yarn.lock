@@ -26,6 +26,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@devindex/vue-mask@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@devindex/vue-mask/-/vue-mask-2.0.3.tgz#062f9bd642bae28ce0bd9dd98463b6bdd5d158d7"
+  integrity sha512-zOVSHVhuV4NkCVTDsyInmBWNS1JvrwevU2QguNzXxe0DDowNp+3MCkVGYdmJtpZ63wRHFiU3YTQsBjCJBOYN2A==
+
 "@esbuild/android-arm64@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.16.17.tgz#cf91e86df127aa3d141744edafcba0abdc577d23"
