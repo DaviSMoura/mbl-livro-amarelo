@@ -44,7 +44,7 @@
   transform:scaleX(1.5);
 }
 @media only screen 
-and (max-device-width: 1000px)
+and (max-device-width: 1200px)
 {
   .holder:before{
     top: -15%;
@@ -63,12 +63,6 @@ and (max-device-width: 1000px)
   margin-top: 50px;
   border-radius:100% 100% 100% 100%;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
-}
-.accent-text {
-  color: #E5AE41
-}
-.shadow-text {
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
 }
 .box-what-is {
   background-color: #1C2323;
