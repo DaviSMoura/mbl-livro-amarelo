@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const webhookUrl = `https://workflow.davimoura.com.br/webhook-test/mbl/livroamarelo`//atob(`aHR0cHM6Ly93b3JrZmxvdy5kYXZpbW91cmEuY29tLmJyL3dlYmhvb2svbWJsL2xpdnJvYW1hcmVsbw==`)
+const webhookUrl = atob(`aHR0cHM6Ly93b3JrZmxvdy5kYXZpbW91cmEuY29tLmJyL3dlYmhvb2svbWJsL2xpdnJvYW1hcmVsbw==`)
 const form = ref({
   nome: '',
   email: '',
