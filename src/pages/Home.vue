@@ -2,7 +2,7 @@
 .holder
   h1.white-content.heading.holder-content.text-3xl.md_text-5xl O LIVRO AMARELO
   img.holder-content.holder-arvore(src="/src/assets/arvore-header.svg" alt="Arvore" class="md_w-1/5 w-1/2")
-.container.mx-auto.my-10
+.container.mx-auto.my-10(class="max-w-[1000px]")
   h1.text-4xl.accent-text.shadow-text.md_text-5xl.sm_px-5.mx-10
     | O QUE É
     br
@@ -17,7 +17,7 @@
     router-link(class="md_w-1/3 w-2/3" to="/cadastro")
       img(src="/src/assets/btn-cadastro.png")
   .container.py-20.mt-20.justify-center.flex
-    img(src="/src/assets/mbl-gold.svg" class="md_w-1/12 w-1/4")
+    img(src="/src/assets/mbl-gold.svg" class="md_w-1/6 w-1/4")
 </template>
 
 
