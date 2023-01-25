@@ -62,7 +62,7 @@ const handleFileChange = async function ($event) {
 .py-10.container.mx-auto.px-5.form-container
   .py-3
     h3.text-xl.accent-text.text-shadow.mb-2 NOME COMPLETO
-    input.input.input-bordered.input-sm.w-full.md_input-md(type="text" placeholder="Ex. Renan Santos" v-model="form.nome")
+    input.input.input-bordered.input-sm.w-full.md_input-md(type="text" placeholder="Ex. Kim Kataguiri" v-model="form.nome")
   .py-3
     h3.text-xl.accent-text.text-shadow.mb-2 EMAIL DE CONTATO
     input.input.input-bordered.input-sm.w-full.md_input-md(type="text" placeholder="Ex. suporte@mbl.org.br" v-model="form.email")
