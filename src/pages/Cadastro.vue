@@ -107,7 +107,7 @@ form.py-10.container.mx-auto.px-5.form-container(@submit="submit")
     .text-red-500.text-sm.mt-1(v-if="errors.nome") {{ errors.nome }}
   .py-3
     h3.text-xl.accent-text.text-shadow.mb-2 EMAIL DE CONTATO
-    input.input.input-bordered.input-sm.w-full.md_input-md(type="text" placeholder="Ex. suporte@mbl.org.br" v-model="email")
+    input.input.input-bordered.input-sm.w-full.md_input-md(type="text" placeholder="Ex. falecom@mbl.org.br" v-model="email")
     .text-red-500.text-sm.mt-1(v-if="errors.email") {{ errors.email }}
   .py-3
     h3.text-xl.accent-text.text-shadow.mb-2 TELEFONE DE CONTATO
