@@ -99,7 +99,7 @@ const handleFileChange = async function ($event) {
   .header-background
   .py-10.front-header.header-content
     h1.heading.text-3xl.md_text-4xl.mx-auto.flex.justify-center CADASTRO
-    img.front-header.flex.justify-center.py-10.header-hero-image.mx-auto(src="/src/assets/brazil-map.svg")
+    img.front-header.flex.justify-center.py-10.header-hero-image.mx-auto(src="/src/assets/brazil-map.svg" alt="Mapa do Brasil")
 form.py-10.container.mx-auto.px-5.form-container(@submit="submit")
   .py-3
     h3.text-xl.accent-text.text-shadow.mb-2 NOME COMPLETO
@@ -219,7 +219,7 @@ form.py-10.container.mx-auto.px-5.form-container(@submit="submit")
   .container.justify-center.flex(class="py-[40px] md_py-[50px]")
     button.btn.btn-wide.btn-accent.md_btn-lg(:class="{loading}" type="submit" value="Participar") Participar
   .container.py-20.justify-center.flex
-    img(src="/src/assets/mbl-gold.svg" class="md_w-1/6 w-1/4")
+    img(src="/src/assets/mbl-gold.svg" class="md_w-1/6 w-1/4" alt="Logo Movimento Brasil Livre")
 </template>
 
 <style scoped>
