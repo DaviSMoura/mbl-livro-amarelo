@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import { useForm, useField } from 'vee-validate'
 import * as yup from 'yup'
+import { vMaska } from 'maska'
 
 const webhookUrl = atob(`aHR0cHM6Ly93b3JrZmxvdy5kYXZpbW91cmEuY29tLmJyL3dlYmhvb2svbWJsL2xpdnJvYW1hcmVsbw==`)
 
@@ -90,6 +91,7 @@ const handleFileChange = async function ($event) {
   const file = $event.target.files[0]
   curriculo.value = file
 }
+
 </script>
 
 <template lang="pug">
@@ -109,7 +111,7 @@ form.py-10.container.mx-auto.px-5.form-container(@submit="submit")
     .text-red-500.text-sm.mt-1(v-if="errors.email") {{ errors.email }}
   .py-3
     h3.text-xl.accent-text.text-shadow.mb-2 TELEFONE DE CONTATO
-    input.input.input-bordered.input-sm.w-full.md_input-md(type="text" v-mask-phone.br placeholder="Ex. (11) 91234-1234" v-model="telefone")
+    input.input.input-bordered.input-sm.w-full.md_input-md(type="text" v-maska data-maska="['(##) #####-####','+#######################']" placeholder="Ex. (11) 91234-1234" v-model="telefone")
     .text-red-500.text-sm.mt-1(v-if="errors.telefone") {{ errors.telefone }}
   .py-3
     h3.text-xl.accent-text.text-shadow.mb-2 SEXO
