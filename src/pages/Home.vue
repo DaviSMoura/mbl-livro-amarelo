@@ -67,6 +67,6 @@ and (max-device-width: 1200px)
 .box-what-is {
   background-color: #1C2323;
   font-size: 150%;
-  font-family: 'mongolian-baiti-regular', sans-serif;
+  font-family: 'Mongolian Baiti', sans-serif;
 }
 </style>
