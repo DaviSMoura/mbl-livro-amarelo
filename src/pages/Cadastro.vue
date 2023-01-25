@@ -32,7 +32,7 @@ const validationSchema = yup.object({
   escolaridade: yup.string().required().notOneOf(['Selecione'], 'Selecione uma opção'),
   areaAtuacaoProfissional: yup.string().required(),
   expGestaoPublica: yup.string().required(),
-  curriculo: yup.mixed().required('Selecione um arquivo').test(fileTestYup),
+  curriculo: yup.mixed().test(fileTestYup),//.required('Selecione um arquivo'),
   areaContribuicao: yup.string().required().notOneOf(['Selecione'], 'Selecione uma opção'),
   horasSemana: yup.string().required().notOneOf(['Selecione'], 'Selecione uma opção'),
 })
